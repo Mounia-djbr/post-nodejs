@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .publication {
+    width: 600px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .comment-section {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .comment-input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .comment-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment {
+    margin-top: 10px;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .comment-text {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    color: #d9534f;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .publication {
+      width: 90%;
+    }
+  }
+  
